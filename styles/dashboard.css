@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e2e;
+  color: #ffffff;
+}
+  
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1ABC9C;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+  
+.bot-name {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ffffff; /* White text on the navbar */
+  text-transform: uppercase;
+  font-weight: bold;
+}
+  
+.content {
+  padding: 5rem 1rem; /* Add padding to account for the navbar */
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Server List Stuff */
+
+.server-container {
+  display: flex;
+  margin-top: 70px;
+  flex-wrap: wrap; /* Ensures items wrap when they exceed the container width */
+  gap: 20px; /* Space between items */
+  justify-content: center; /* Centers the items */
+}
+
+.server-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+}
+
+.server-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.server-item p {
+  margin: 10px 0 0;
+  font-size: 14px;
+  font-weight: bold;
+}
